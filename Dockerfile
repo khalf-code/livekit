@@ -1,4 +1,4 @@
-# Dockerfile qui utilise une image de base officielle et stable
-FROM livekit/livekit-server:v1.5.4
+# Dockerfile qui utilise l'image :latest, la seule qui fonctionne sur Render
+FROM livekit/livekit-server:latest
 
-# Rien d'autre n'est nécessaire, l'image de base s'occupe de tout
+# Rien d'autre n'est nécessaire
